@@ -5,7 +5,7 @@ import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
-import java.awt.image.MemoryImageSource;
+import java.awt.image.MemoryImageSource; 
 import java.awt.image.WritableRaster;
 import java.io.File;
 import java.io.IOException;
@@ -405,7 +405,7 @@ public class mandel extends Applet
        // boolean nextN, nextE, nextS, nextW; //the next direction to go in (up the gradient)
         boolean badPath = false;
 
-        int stepSize = 1;
+        int stepSize = 1; 
 
         while(dpixels[randomIndex] < 0.9){
 
